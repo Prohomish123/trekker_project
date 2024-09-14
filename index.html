@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- develop the shitt with bootstrap -->
+    <title>Treker - Home 01</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="https://themeim.com/demo/treker/images/icons/logo-icon.svg" type="image/x-icon">
+    <style>
+        .scn-hd {
+            width: 100%;
+        }
+
+        @media (min-width:576px) and (max-width:767) {
+            .scnd-hd {
+                width: fit-content;
+            }
+        }
+
+        @media (min-width:768px) and (max-width:991) {
+            .scnd-hd {
+                width: fit-content;
+            }
+        }
+
+        @media (min-width:992px) and (max-width: 1199px) {
+            .scnd-hd {
+                width: fit-content;
+            }
+        }
+
+        @media (min-width:1200px) and (max-width:1399px) {
+            .scnd-hd {
+                width: fit-content;
+            }
+        }
+
+        @media (min-width:1400px) {
+            .scnd-hd {
+                width: fit-content;
+            }
+        }
+
+        .cards-sec {
+            background-image: url(asset/images/image-1.jpg);
+            height: 100vh;
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .card-bx {
+            width: fit-content;
+            border-radius: 20px;
+        }
+
+        .half-box {
+            background-color: #808080;
+            max-width: 90%;
+            text-align: center;
+        }
+
+        .shop {
+            position: relative;
+        }
+
+        .shop .heart {
+            position: absolute;
+            top: 1vw;
+            right: 1vw;
+        }
+
+        .bg-img-2 {
+            background-image: url(https://themeim.com/demo/treker/images/background/image-2.jpg);
+        }
+
+        .panels {
+            height: 20vw;
+        }
+
+        .panel-left {
+            transform: rotate(-90deg);
+            color: #fff;
+            background-color: #1DC5CE;
+
+        }
+
+        .review-card {
+            height: 17vw;
+            width: 20vw;
+            border: 1px solid #1DC5CE;
+            border-radius: 10px;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 1st Header -->
+    <div class="container-fluid px-0">
+        <div class="bg-info p-2 fst-hd d-flex justify-content-between" style="background-color: #1DC5CE; color: #fff;">
+            <div class="d-none d-sm-flex justify-content-between gap-3">
+                <div>
+                    <img src="asset/images/mail.png" style="height: 20px;" alt=""><a href="#" class="text-white ms-1"
+                        style="font-size: 14px;">INFO@TREKER.COM</a>
+                </div>
+                <div>
+                    <img src="asset/images/call.png" style="height: 20px;" alt=""><a href="#" class="text-white ms-1"
+                        style="font-size: 14px;">+11-865 7563 353</a>
+                </div>
+            </div>
+            <div class="d-flex gap-3 justify-content-between scnd-hd">
+                <div>
+                    <img src="asset/images/globe.png" style="height: 20px;" alt=""><a href="#" class="text-white ms-1"
+                        style="font-size: 14px;">ENG</a>
+                </div>
+                <div>
+                    <img src="asset/images/user.png" style="height: 20px;" alt=""><a href="#" class="text-white ms-1"
+                        style="font-size: 14px;">SIGN IN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid px-0">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="https://themeim.com/demo/treker/images/logo.svg" alt=""></a>
+                <!-- right-part -->
+                <div class="d-flex d-lg-none align-items-center gap-3">
+                    <div>
+                        <img src="asset/images/search.png" alt="">
+                    </div>
+                    <div>
+                        <img src="asset/images/heart.png" alt="">
+                    </div>
+                    <div class="p-3" style="background-color: #eaf6f6;">
+                        <img src="asset/images/cart.png" alt=""><span>00 Items</span>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- right-part -->
+                <div class="d-none d-lg-flex align-items-center gap-3">
+                    <div>
+                        <img src="asset/images/search.png" alt="">
+                    </div>
+                    <div>
+                        <img src="asset/images/heart.png" alt="">
+                    </div>
+                    <div class="p-3" style="background-color: #eaf6f6;">
+                        <img src="asset/images/cart.png" alt=""><span>00 Items</span>
+                    </div>
+                </div>
+        </nav>
+        <!-- section-1 start -->
+        <div class="page1 d-flex align-items-end justify-content-between px-5 pb-5">
+            <div class="left pb-5">
+                <h4 style="font-size: 3vw; font-weight: 500;">Never Stop</h4>
+                <h1 style="font-size: 5vw; font-weight: 900;">Exploring</h1>
+                <p>Their house is a museum where people come to see ‘em. They really are a scream <br>the Addams Family.
+                    These days are all Happy and Free. These days are all share <br>them with me oh baby.</p>
+                <button type="button" class="btn btn-outline-info">View All Tours <img
+                        src="https://themeim.com/demo/treker/images/icons/logo-icon.svg" alt=""></button>
+                <img src="https://themeim.com/demo/treker/images/icons/video-icon-1.svg" alt="">
+            </div>
+            <div class="right d-none d-sm-none d-md-none d-lg-flex">
+                <img src="asset/images/banner-image-1.svg" alt="">
+            </div>
+        </div>
+        <!-- section-1 end -->
+        <!-- section-2 start -->
+        <div class="page2 d-block d-lg-flex">
+            <div class="left"
+                style="background-image: url(https://themeim.com/demo/treker/images/resource/about-vector-1.png); background-repeat: no-repeat; padding-left: 20vw;">
+                <img src="https://themeim.com/demo/treker/images/resource/about-image-1.svg" alt="">
+            </div>
+            <div class="right ps-5">
+                <h3>About Trekker</h3>
+                <h1>World Best Travel <br> Agency</h1>
+                <p>Since 2014, we’ve helped more than 500,000 people of all ages enjoy <br>the best outdoor experience
+                    of their lives. Whether it’s for one day or a <br> two-week vacation, close to home or a foreign
+                    land.</p>
+                <div class="box shadow-lg p-3 mb-5 bg-body-tertiary rounded"
+                    style="border: 1px solid white; display: flex; align-items: center; justify-content: space-around; height: 150px; width:600px;">
+                    <ul>
+                        <li>Ratione voluptatem.sequi nesciunt.</li>
+                        <li>Ratione voluptatem.</li>
+                        <li>Ratione voluptatem sequi.</li>
+                    </ul>
+                    <iframe width="100" height="100" src="https://www.youtube.com/embed/0xhr0j877bI?si=1k_CyxNOJP-gEwzg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- section-2 end -->
+        <!-- cards section start -->
+        <div class="cards-sec container-fluid px-3">
+            <div>
+                <h2 class="text-center pt-5 pb-3">Modern & Beautiful</h2>
+            </div>
+            <h2 class="text-center" style="font-size: 3vw;">Our Most Popular <br> Trekking</h2>
+            <!-- card box -->
+            <div class="d-flex align-items-center justify-content-center">
+                <!-- 1st card start -->
+                <div class=" m-4 p-3 bg-white card-bx" style="position: relative;">
+                    <div>
+                        <img src="asset/images/card-img-1.jpg" alt="" style="border-radius: 10px;" class="pb-3">
+                    </div>
+                    <div style="background-color: #1DC5CE; color: #fff; width: fit-content; border-radius: 5px; position: absolute; top: 1.5vw; left: 1.5vw;"
+                        class="p-1 m-1">
+                        120$
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between half-box">
+                        <div>
+                            05 Days
+                        </div>
+                        <div>
+                            |
+                        </div>
+                        <div>259P, Himalaya Ag</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img src="asset/images/star golden.png" alt="">
+                        <img src="asset/images/star golden.png" alt="">
+                        <img src="asset/images/star golden.png" alt="">
+                        <img src="asset/images/star golden.png" alt="">
+                        <img src="asset/images/star grey.png" alt="">
+                        <div class="ps-5">
+                            <h6>05 Reviews</h6>
+                        </div>
+                    </div>
+                    <h4>Moscow Red City Land</h4>
+                    <p class="p-2">Richly varied landscapes, luxurious <br>accomodation and wide range of <br> wild
+                        experiences awaits for you. </p>
+                    <hr>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>View Details<img src="https://themeim.com/demo/treker/images/icons/logo-icon.svg" alt="">
+                        </div>
+                        <img src="asset/images/camera.png" alt="">
+                    </div>
+                </div>
+                <div class=" m-4 p-3 bg-white card-bx" style="position: relative;">
+                    <div>
+                        <img src="asset/images/card-img-1.jpg" alt="" style="border-radius: 10px;" class="pb-3">
+                    </div>
+                    <div style="background-color: #1DC5CE; color: #fff; width: fit-content; border-radius: 5px; position: absolute; top: 1.5vw; left: 1.5vw;"
+                        class="p-1 m-1">
+                        120$
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between half-box">
+                        <div>
+                            05 Days
+                        </div>
+                        <div>
+                            |
+                        </div>
+                        <div>259P, Himalaya Ag</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img src="asset/images/star golden.png" alt="">
+                        <img src="asset/images/star golden.png" alt="">
+                        <img src="asset/images/star golden.png" alt="">
+                        <img src="asset/images/star golden.png" alt="">
+                        <img src="asset/images/star grey.png" alt="">
+                        <div class="ps-5">
+                            <h6>05 Reviews</h6>
+                        </div>
+                    </div>
+                    <h4>Moscow Red City Land</h4>
+                    <p class="p-2">Richly varied landscapes, luxurious <br>accomodation and wide range of <br> wild
+                        experiences awaits for you. </p>
+                    <hr>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>View Details<img src="https://themeim.com/demo/treker/images/icons/logo-icon.svg" alt="">
+                        </div>
+                        <img src="asset/images/camera.png" alt="">
+                    </div>
+                </div>
+                <div class=" m-4 p-3 bg-white card-bx" style="position: relative;">
+                    <div>
+                        <img src="asset/images/card-img-1.jpg" alt="" style="border-radius: 10px;" class="pb-3">
+                    </div>
+                    <div style="background-color: #1DC5CE; color: #fff; width: fit-content; border-radius: 5px; position: absolute; top: 1.5vw; left: 1.5vw;"
+                        class="p-1 m-1">
+                        120$
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between half-box">
+                        <div>
+                            05 Days
+                        </div>
+                        <div>
+                            |
+                        </div>
+                        <div>259P, Himalaya Ag</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img src="asset/images/star golden.png" alt="">
+                        <img src="asset/images/star golden.png" alt="">
+                        <img src="asset/images/star golden.png" alt="">
+                        <img src="asset/images/star golden.png" alt="">
+                        <img src="asset/images/star grey.png" alt="">
+                        <div class="ps-5">
+                            <h6>05 Reviews</h6>
+                        </div>
+                    </div>
+                    <h4>Moscow Red City Land</h4>
+                    <p class="p-2">Richly varied landscapes, luxurious <br>accomodation and wide range of <br> wild
+                        experiences awaits for you. </p>
+                    <hr>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>View Details<img src="https://themeim.com/demo/treker/images/icons/logo-icon.svg" alt="">
+                        </div>
+                        <img src="asset/images/camera.png" alt="">
+                    </div>
+                </div>
+                <!-- 1st card end -->
+
+            </div>
+            <!-- cards section end -->
+        </div>
+        <div class="container px-3">
+            <div class="text-center py-4">
+                <h2>We are Awesome</h2>
+            </div>
+            <div>
+                <h1 class="text-center py-3 ">Why Choose Trekker</h1>
+            </div>
+            <div class="main d-flex align-items-center justify-content-between">
+                <div class="left-2 py-5">
+                    <div class="py-3 px-2">
+                        <img src="https://themeim.com/demo/treker/images/resource/icon-1.svg" alt="">
+                    </div>
+                    <div>
+                        <h3 style="font-weight: 700;">Diverse Destinations</h3>
+                        <p style="font-size: .89vw; font-weight: 400;">Richly varied landscapes, luxury
+                            <br>accommodation Travel.</p>
+                    </div>
+                    <div class="py-3 px-2">
+                        <img src="https://themeim.com/demo/treker/images/resource/icon-2.svg" alt="">
+                    </div>
+                    <div>
+                        <h3 style="font-weight: 700;">Diverse Destinations</h3>
+                        <p style="font-size: .89vw; font-weight: 400;">Richly varied landscapes, luxury
+                            <br>accommodation Travel.</p>
+                    </div>
+                    <div class="py-3 px-2">
+                        <img src="https://themeim.com/demo/treker/images/resource/icon-3.svg" alt="">
+                    </div>
+                    <div>
+                        <h3 style="font-weight: 700;">Diverse Destinations</h3>
+                        <p style="font-size: .89vw; font-weight: 400;">Richly varied landscapes, luxury
+                            <br>accommodation Travel.</p>
+                    </div>
+                </div>
+                <div class="image-2 text-center">
+                    <img src="https://themeim.com/demo/treker/images/resource/why-image-1.svg" alt="">
+                </div>
+                <div class="right-2 py-5">
+                    <div class="py-3 px-2">
+                        <img src="https://themeim.com/demo/treker/images/resource/icon-4.svg" alt="">
+                    </div>
+                    <div>
+                        <h3 style="font-weight: 700;">Diverse Destinations</h3>
+                        <p style="font-size: .89vw; font-weight: 400;">Richly varied landscapes, luxury
+                            <br>accommodation Travel.</p>
+                    </div>
+                    <div class="py-3 px-2">
+                        <img src="https://themeim.com/demo/treker/images/resource/icon-5.svg" alt="">
+                    </div>
+                    <div>
+                        <h3 style="font-weight: 700;">Diverse Destinations</h3>
+                        <p style="font-size: .89vw; font-weight: 400;">Richly varied landscapes, luxury
+                            <br>accommodation Travel.</p>
+                    </div>
+                    <div class="py-3 px-2">
+                        <img src="https://themeim.com/demo/treker/images/resource/icon-6.svg" alt="">
+                    </div>
+                    <div>
+                        <h3 style="font-weight: 700;">Diverse Destinations</h3>
+                        <p style="font-size: .89vw; font-weight: 400;">Richly varied landscapes, luxury
+                            <br>accommodation Travel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container px-3">
+            <div>
+                <div class="text-center">
+                    <h3>Top Destinations</h3>
+                </div>
+                <div class="text-center">
+                    <h1>Trending Destinations</h1>
+                </div>
+            </div>
+            <div class="img-gal d-flex flex-column flex-md-row align-items-center justify-content-center pb-4" style="gap: 1.5vw;">
+                <div>
+                    <img src="https://themeim.com/demo/treker/images/resource/gallery-1.jpg " alt=""
+                        style="border-radius: 10px;">
+                </div>
+                <div>
+                    <img src="https://themeim.com/demo/treker/images/resource/gallery-2.jpg " alt=""
+                        style="border-radius: 10px;">
+                </div>
+            </div>
+            <div class="img-gal d-flex flex-column flex-md-row align-items-center justify-content-center pb-4" style="gap: 1.5vw;">
+                <div>
+                    <img src="https://themeim.com/demo/treker/images/resource/gallery-3.jpg" alt=""
+                        style="border-radius: 10px;">
+                </div>
+                <div>
+                    <img src="https://themeim.com/demo/treker/images/resource/gallery-4.jpg" alt=""
+                        style="border-radius: 10px;">
+                </div>
+            </div>
+            <div class="img-gal d-flex flex-column flex-md-row align-items-center justify-content-center pb-4" style="gap: 1.5vw;">
+                <div>
+                    <img src="https://themeim.com/demo/treker/images/resource/gallery-1.jpg" alt=""
+                        style="border-radius: 10px;">
+                </div>
+                <div>
+                    <img src="https://themeim.com/demo/treker/images/resource/gallery-2.jpg " alt=""
+                        style="border-radius: 10px;">
+                </div>
+            </div>
+        </div>
+        <div class="container px-3 pt-2">
+            <div>
+                <div class="text-center">
+                    <h3>Shop Now</h3>
+                </div>
+                <div class="text-center">
+                    <h1>Featured Trekking Products</h1>
+                </div>
+            </div>
+            <div>
+
+            </div>
+            <div class=" row card-shop">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div>
+                        <img src="https://themeim.com/demo/treker/images/resource/shop/prod-1.jpg" alt="">
+                    </div>
+                    <div>
+                        <h5>Smart Air Bag Travel</h5>
+                    </div>
+                    <div>
+                        <p style="font-weight: 700; color: #1DC5CE;">$225.00</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div>
+                        <img src="https://themeim.com/demo/treker/images/resource/shop/prod-2.jpg" alt="">
+                    </div>
+                    <div>
+                        <h5>Smart Air Bag Travel</h5>
+                    </div>
+                    <div>
+                        <p style="font-weight: 700; color: #1DC5CE;">$225.00</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div>
+                        <img src="https://themeim.com/demo/treker/images/resource/shop/prod-3.jpg" alt="">
+                    </div>
+                    <div>
+                        <h5>Smart Air Bag Travel</h5>
+                    </div>
+                    <div>
+                        <p style="font-weight: 700; color: #1DC5CE;">$225.00</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div>
+                        <img src="https://themeim.com/demo/treker/images/resource/shop/prod-4.jpg" alt="">
+                    </div>
+                    <div>
+                        <h5>Smart Air Bag Travel</h5>
+                    </div>
+                    <div>
+                        <p style="font-weight: 700; color: #1DC5CE;">$225.00</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div>
+                        <img src="https://themeim.com/demo/treker/images/resource/shop/prod-5.jpg" alt="">
+                    </div>
+                    <div>
+                        <h5>Smart Air Bag Travel</h5>
+                    </div>
+                    <div>
+                        <p style="font-weight: 700; color: #1DC5CE;">$225.00</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div>
+                        <img src="https://themeim.com/demo/treker/images/resource/shop/prod-6.jpg" alt="">
+                    </div>
+                    <div>
+                        <h5>Smart Air Bag Travel</h5>
+                    </div>
+                    <div>
+                        <p style="font-weight: 700; color: #1DC5CE;">$225.00</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div>
+                        <img src="https://themeim.com/demo/treker/images/resource/shop/prod-7.jpg" alt="">
+                    </div>
+                    <div>
+                        <h5>Smart Air Bag Travel</h5>
+                    </div>
+                    <div>
+                        <p style="font-weight: 700; color: #1DC5CE;">$225.00</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div>
+                        <img src="https://themeim.com/demo/treker/images/resource/shop/prod-8.jpg" alt="">
+                    </div>
+                    <div>
+                        <h5>Smart Air Bag Travel</h5>
+                    </div>
+                    <div>
+                        <p style="font-weight: 700; color: #1DC5CE;">$225.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-section-button text-center">
+                <button type="button" class="btn btn-outline-info  mt-3 mb-5">View All Products <img
+                        src="https://themeim.com/demo/treker/images/icons/logo-icon.svg" alt=""></button>
+            </div>
+        </div>
+        <div class="container px-3 pt-5 pb-4">
+            <div>
+                <div class="text-center py-2">
+                    <h4>Reviews And Testimonial</h4>
+                </div>
+                <div class="text-center py-2">
+                    <h2>
+                        Top Reviews for Treker
+                    </h2>
+                </div>
+            </div>
+            <!-- review-card start -->
+            <div class="d-flex align-items-center justify-content-between pt-5">
+                <div class="review-card ps-3">
+                    <div>
+                        <img src="https://themeim.com/demo/treker/images/icons/quotes-1.svg" alt="" class="pt-5 ps-4">
+                    </div>
+                    <div style="position: absolute; top: -2vw; left: 14vw;">
+                        <img src="https://themeim.com/demo/treker/images/resource/testi-thumb-1.jpg" alt=""
+                            style="border-radius: 60px;">
+                    </div>
+                    <div class="ps-3 pt-5" style="font-weight: 500;">
+                        <p>Fight School has specialized in <br> martial arts since 1986 and has one <br> of the most
+                            Fight school has <br> specialized
+                        </p>
+                        <i> <b>Randall Schwartz</b></i>
+                        <p style="font-weight: 500;" class="pt-2">
+                            Womens Trainer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <img src="asset/images/star golden.png" alt="">
+                            <img src="asset/images/star golden.png" alt="">
+                            <img src="asset/images/star golden.png" alt="">
+                            <img src="asset/images/star golden.png" alt="">
+                            <img src="asset/images/star golden.png" alt="">
+                        </p>
+                    </div>
+                </div>
+                <div class="review-card ps-3">
+                    <div>
+                        <img src="https://themeim.com/demo/treker/images/icons/quotes-1.svg" alt="" class="pt-5 ps-4">
+                    </div>
+                    <div style="position: absolute; top: -2vw; left: 14vw;">
+                        <img src="https://themeim.com/demo/treker/images/resource/testi-thumb-2.jpg" alt=""
+                            style="border-radius: 60px;">
+                    </div>
+                    <div class="ps-3 pt-5" style="font-weight: 500;">
+                        <p>Fight School has specialized in <br> martial arts since 1986 and has one <br> of the most
+                            Fight school has <br> specialized
+                        </p>
+                        <i> <b>Randall Schwartz</b></i>
+                        <p style="font-weight: 500;" class="pt-2">
+                            Womens Trainer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <img src="asset/images/star golden.png" alt="">
+                            <img src="asset/images/star golden.png" alt="">
+                            <img src="asset/images/star golden.png" alt="">
+                            <img src="asset/images/star golden.png" alt="">
+                            <img src="asset/images/star golden.png" alt="">
+                        </p>
+                    </div>
+                </div>
+                <div class="review-card ps-3">
+                    <div>
+                        <img src="https://themeim.com/demo/treker/images/icons/quotes-1.svg" alt="" class="pt-5 ps-4">
+                    </div>
+                    <div style="position: absolute; top: -2vw; left: 14vw;">
+                        <img src="https://themeim.com/demo/treker/images/resource/testi-thumb-1.jpg" alt=""
+                            style="border-radius: 60px;">
+                    </div>
+                    <div class="ps-3 pt-5" style="font-weight: 500;">
+                        <p>Fight School has specialized in <br> martial arts since 1986 and has one <br> of the most
+                            Fight school has <br> specialized
+                        </p>
+                        <i> <b>Randall Schwartz</b></i>
+                        <p style="font-weight: 500;" class="pt-2">
+                            Womens Trainer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <img src="asset/images/star golden.png" alt="">
+                            <img src="asset/images/star golden.png" alt="">
+                            <img src="asset/images/star golden.png" alt="">
+                            <img src="asset/images/star golden.png" alt="">
+                            <img src="asset/images/star golden.png" alt="">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- review-card end -->
+            <!-- icon-card-start -->
+            <div class="d-flex align-items-center justify-content-between ">
+                <div class="icon-card d-flex align-items-center justify-content-between" style="padding-top: 7vw;">
+                    <div style="height: 16vw; width: 16vw; border: 1px dotted #7D7D7D; border-radius: 10px;"
+                        class="d-flex align-items-center justify-content-center">
+                        <div>
+                            <img src="https://themeim.com/demo/treker/images/resource/sponsor-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="icon-card d-flex align-items-center justify-content-between" style="padding-top: 7vw;">
+                    <div style="height: 16vw; width: 16vw; border: 1px dotted #7D7D7D; border-radius: 10px"
+                        class="d-flex align-items-center justify-content-center">
+                        <div>
+                            <img src="https://themeim.com/demo/treker/images/resource/sponsor-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="icon-card d-flex align-items-center justify-content-between" style="padding-top: 7vw;">
+                    <div style="height: 16vw; width: 16vw; border: 1px dotted #7D7D7D; border-radius: 10px"
+                        class="d-flex align-items-center justify-content-center">
+                        <div>
+                            <img src="https://themeim.com/demo/treker/images/resource/sponsor-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="icon-card d-flex align-items-center justify-content-between" style="padding-top: 7vw;">
+                    <div style="height: 16vw; width: 16vw; border: 1px dotted #7D7D7D; border-radius: 10px"
+                        class="d-flex align-items-center justify-content-center">
+                        <div>
+                            <img src="https://themeim.com/demo/treker/images/resource/sponsor-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- icon-card-end -->
+            <div class="container px-3 pt-5">
+                <h3 class="text-center">Trekker Top News</h3>
+            </div>
+            <div>
+                <h1 class="text-center">
+                    Treker Latest News
+                </h1>
+            </div>
+            <div class="box">
+                <div class="boxes d-flex align-items-center justify-content-center" style="gap: 2vw;">
+                    <div class="img-box" style="position: relative;">
+                        <button type="button" class="btn btn-info"
+                            style="position: absolute; top: 1vw; left: 1vw;">Trekking</button>
+                        <img src="https://themeim.com/demo/treker/images/resource/news-1.jpg" alt=""
+                            style="border-radius: 10px;">
+                    </div>
+                    <div class="text-box"
+                        style="height: 274px; width: 370px; border: 1px solid #1DC5CE; border-radius: 10px;">
+                        <div class="box-heading d-flex align-items-center justify-content-center pt-4"
+                            style="gap: 0.3vw ;">
+                            <div style="font-weight: 700;">By : Sword Joy </div>
+                            <div style="font-weight: 700;"> | </div>
+                            <div style="font-weight: 700;">20 March 2022</div>
+                        </div>
+                        <div>
+                            <h4 class="px-4 pt-3 d-flex align-items-center justify-content-center"
+                                style="font-weight: 700;">THE BEST BOXERS IN THEIR <br> WEIGH TARGET CATEGOR
+                            </h4>
+                        </div>
+                        <div>
+                            <p class="px-4 pt-1">Fight School is specialized in martial <br> arts since1986 and has one
+                                od the <br> most innovative</p>
+                        </div>
+                    </div>
+                    <div class="img-box" style="position: relative;">
+                        <button type="button" class="btn btn-info"
+                            style="position: absolute; top: 1vw; left: 1vw;">Trekking</button>
+                        <img src="https://themeim.com/demo/treker/images/resource/news-3.jpg" alt=""
+                            style="border-radius: 10px;">
+                    </div>
+                </div>
+                <!-- 1st part over -->
+                <div class="boxes d-flex align-items-center justify-content-center" style="gap: 2vw; padding-top: 2vw;">
+                    <div class="text-box"
+                        style="height: 274px; width: 370px; border: 1px solid #1DC5CE; border-radius: 10px;">
+                        <div class="box-heading d-flex align-items-center justify-content-center pt-4"
+                            style="gap: 0.3vw ;">
+                            <div style="font-weight: 700;">By : Sword Joy </div>
+                            <div style="font-weight: 700;"> | </div>
+                            <div style="font-weight: 700;">20 March 2022</div>
+                        </div>
+                        <div>
+                            <h4 class="px-4 pt-3 d-flex align-items-center justify-content-center"
+                                style="font-weight: 700;">THE BEST BOXERS IN THEIR <br> WEIGH TARGET CATEGOR
+                            </h4>
+                        </div>
+                        <div>
+                            <p class="px-4 pt-1" style="font-weight: 500;">Fight School is specialized in martial <br>
+                                arts since1986 and has one od the <br> most innovative</p>
+                        </div>
+                    </div>
+                    <div class="img-box" style="position: relative;">
+                        <button type="button" class="btn btn-info"
+                            style="position: absolute; top: 1vw; left: 1vw;">Trekking</button>
+                        <img src="https://themeim.com/demo/treker/images/resource/news-1.jpg" alt=""
+                            style="border-radius: 10px;">
+                    </div>
+                    <div class="text-box"
+                        style="height: 274px; width: 370px; border: 1px solid #1DC5CE; border-radius: 10px;">
+                        <div class="box-heading d-flex align-items-center justify-content-center pt-4"
+                            style="gap: 0.3vw ;">
+                            <div style="font-weight: 700;">By : Sword Joy </div>
+                            <div style="font-weight: 700;"> | </div>
+                            <div style="font-weight: 700;">20 March 2022</div>
+                        </div>
+                        <div>
+                            <h4 class="px-4 pt-3 d-flex align-items-center justify-content-center"
+                                style="font-weight: 700;">THE BEST BOXERS IN THEIR <br> WEIGH TARGET CATEGOR
+                            </h4>
+                        </div>
+                        <div>
+                            <p class="px-4 pt-1" style="font-weight: 500;">Fight School is specialized in martial <br>
+                                arts since1986 and has one od the <br> most innovative</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Newsletter start -->
+            <div class="img-div"
+                style="margin-top: 7vw; width:fit-content; border-radius: 10px; overflow: hidden; margin-left: 3vw;">
+                <div
+                    style="background-image: url(https://themeim.com/demo/treker/images/background/newsletter-bg.png); width: fit-content; background-color: #1dc5cece; background-repeat: no-repeat;">
+                    <div class="d-flex align-items justify-content-start">
+                        <div>
+                            <div>
+                                <img src="https://themeim.com/demo/treker/images/resource/newsletter-image.svg" alt=""
+                                    class="p-5">
+                            </div>
+                        </div>
+                        <div style="width: 37vw; color: #ffffff;">
+                            <h4 style="padding-left: 6vw; padding-top: 6vw;">Newsletter</h4>
+                            <h1 style="padding-left: 6vw; font-weight: 700;" class="pt-3">SUBSCRIBE NOW</h1>
+                            <p style="font-weight: 500; padding-left: 6vw;" class="pt-3">
+                                Fight School has specialized in martial arts since 1986 and has one of the <br> most
+                                innovative programs in the nation.
+                            </p>
+                            <div>
+                                <form style="padding-left: 6vw; position: relative;">
+                                    <input type="email" id="email" name="email" placeholder=" Email Address"
+                                        style="height: 4vw; width: 25vw; border-radius: 10px; border: 1px solid #fff;"
+                                        class="p-2">
+                                    <button type="button" class="btn"
+                                        style=" position: absolute; left: 23.5vw; top: .5vw; height: 3vw; color: #ffff; font-weight: 500;background-color: #1DC5CE;">SUBSCRIBE
+                                        <img src="asset/images/telegram.png" alt=""></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Newsletter end -->
+            <div style="margin: 5vw; "></div>
+        </div>
+        <!-- footer start -->
+        <div class="footer container px-5">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="f1">
+                    <div class="pb-4">
+                        <img src="https://themeim.com/demo/treker/images/logo.svg" alt="">
+                    </div>
+                    <p style="color: #959697;">
+                        Treker was founded in 1991 by a group of <br> safety-focused professionals who created <br> The
+                        Wingman Standard for rigorously vetting <br> air charter operators.
+                    </p>
+                </div>
+                <div class="f2">
+                    <h5 class="pb-4">EUROPE</h5>
+                    <p style="color: #959697;">Europe 45 Gloucester <br> Road London DT1M 3BF <br>
+                        +44 (0)20 3671 5709</p>
+                </div>
+                <div class="f3">
+                    <h5 class="pb-4">ASIA & PACIFIC</h5>
+                    <p style="color: #959697;">2473 Red Road Ste 98 <br> Singapore SG <br>
+                        + 1 623 211 6319</p>
+                </div>
+                <div class="f4">
+                    <h5 class="pb-4">NORTH AMERICA</h5>
+                    <p style="color: #959697;">Europe 45 Gloucester <br> Road London DT1M 3BF <br>
+                        +44 (0)20 3671 5709</p>
+                </div>
+            </div>
+        </div>
+        <div style="margin: 5vw; "></div>
+        <div class="footer-2 container-fluid py-5 d-flex align-items-center justify-content-center"
+            style="background-image: url(https://themeim.com/demo/treker/images/background/f-bottom-bg.svg);">
+            <div style="height: 355px; width: 1170px; border: 1px solid white;"
+                class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                <div class="p-4 d-flex align-items-center justify-content-between">
+                    <div>
+                        <div>
+                            <h6 style="font-weight: 600; padding-left: 1.7vw; padding-bottom: 1vw;">About Us</h6>
+                        </div>
+                        <div class="links">
+                            <ul style="list-style: none; line-height: 1.5vw; color: #7D7D7D; font-weight: 400;">
+                                <li>About Us</li>
+                                <li>Community blog</li>
+                                <li>Rewards</li>
+                                <li> Work With Us</li>
+                                <li>Contact</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <h6 style="font-weight: 600; padding-left: 1.7vw; padding-bottom: 1vw;">Explore Trekker</h6>
+                        </div>
+                        <div class="links">
+                            <ul style="list-style: none; line-height: 1.5vw; color: #7D7D7D; font-weight: 400;">
+                                <li>Account</li>
+                                <li>Privacy Policy</li>
+                                <li>Affiliate</li>
+                                <li> Program</li>
+                                <li>Our Partner</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <h6 style="font-weight: 600; padding-left: 1.7vw; padding-bottom: 1vw;">Quick Links</h6>
+                        </div>
+                        <div class="links">
+                            <ul style="list-style: none; line-height: 1.5vw; color: #7D7D7D; font-weight: 400;">
+                                <li>About Us</li>
+                                <li>News & Press</li>
+                                <li>Blogs</li>
+                                <li> FAQs</li>
+                                <li>Careers</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <h6 style="font-weight: 600; padding-left: 1.7vw; padding-bottom: 1vw;">Gallery</h6>
+                        </div>
+                        <div class="footer-images">
+                            <div>
+                                <img src="https://themeim.com/demo/treker/images/resource/footer-thumb-1.jpg" alt=""
+                                    style="padding: .2vw; border-radius: 5px;">
+                                <img src="https://themeim.com/demo/treker/images/resource/footer-thumb-1.jpg" alt=""
+                                    style="padding: .2vw; border-radius: 5px;">
+                                <img src="https://themeim.com/demo/treker/images/resource/footer-thumb-1.jpg" alt=""
+                                    style="padding: .2vw; border-radius: 5px;">
+                            </div>
+                            <div>
+                                <img src="https://themeim.com/demo/treker/images/resource/footer-thumb-1.jpg" alt=""
+                                    style="padding: .2vw; border-radius: 5px;">
+                                <img src="https://themeim.com/demo/treker/images/resource/footer-thumb-1.jpg" alt=""
+                                    style="padding: .2vw; border-radius: 5px;">
+                                <img src="https://themeim.com/demo/treker/images/resource/footer-thumb-1.jpg" alt=""
+                                    style="padding: .2vw; border-radius: 5px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer-end -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
